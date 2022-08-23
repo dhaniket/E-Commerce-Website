@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopZilla</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" >
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--header section-->
+  <header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i> ShopZilla </a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#features">features</a>
+      <a href="#products">products</a>
+      <a href="#categories">categories</a>
+      <a href="#review">reviews</a>
+      <a href="#footer">contact us</a>
+    </nav>
+
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+      <div class="box">
+        <img src="image/s2.jpg" alt="">
+        <i class="fas fa-trash"></i>
+        <div class="content">
+          <h3>Smartphone</h3>
+          <span class="price">$490</span>
+          <span class="quantity">Qty: 1</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="image/watch.jpg" alt="">
+        <i class="fas fa-trash"></i>
+        <div class="content">
+          <h3>watch</h3>
+          <span class="price">$490</span>
+          <span class="quantity">Qty: 1</span>
+        </div>
+      </div>
+    
+      <div class="total">Total: $980</div>
+      <a href="#" class="btn">Checkout</a>
+
+    </div>
+    
+    <form action="" class="login-form">
+      <h3>Login</h3>
+      <input type="email" placeholder="Enter Email Address" class="box">
+      <input type="password" placeholder="Enter password" class="box">
+      <p>forgot password <a href="#">click here</a></p>
+      <p>don't have an account <a href="#">create now</a></p>
+      <input type="submit" value="Login Now" class="btn">
+    </form>
+
+  </header>
+
+
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Looking to shop at ShopZilla?</h3>
+      <p>Pick from the widest range of products from Global Sellers</p>
+      <a href="#" class="btn">shop now</a>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <h1 class="heading">features</h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="image/f52.jpg" alt="">
+        <h3>Easy Secure Payment</h3>  
+        <p>Shopping with secure and faster payment</p>
+        <a href="" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="image/f21.jpg" alt="">
+        <h3>Free Delivery</h3>
+        <p></p>
+        <a href="" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="image/f92.jpg" alt="">
+        <h3>Sell Globally</h3>
+        <p>Sell your products to 182 million customers across 190 countries</p>
+        <a href="" class="btn">read more</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h1 class="heading">products</h1>
+    <div class="swiper product-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="image/s2.jpg" alt="">
+          <h3>Smartphone</h3>  
+          <div class="price">Rs.23990</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/bike.jpg" alt="">
+          <h3>3 Wheeled Scooter</h3>  
+          <div class="price">Rs.1999</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/watch.jpg" alt="">
+          <h3>Smart watch</h3>
+          <div class="price">Rs.390</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/boot.jpg" alt="">
+          <h3>Men Sports Shoes</h3>  
+          <div class="price">Rs.599</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="swiper product-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="image/vr.jpg" alt="">
+          <h3>Zebronics VR Headset</h3>  
+          <div class="price">Rs.1849</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/bag.jpg" alt="">
+          <h3>QUECHU Mini Laptop Bag</h3>  
+          <div class="price">$490</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/drone.jpg" alt="">
+          <h3>HX770 V-Max Aircraft Drone</h3>  
+          <div class="price">$490</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="categories" id="categories">
+    <h1 class="heading">product categories</h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="image/car.jpg" alt="">
+        <h3>Toys and Games</h3>  
+        <a href="" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="image/s2.jpg" alt="">
+        <h3>Electronics</h3>
+        <a href="" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="image/cooker.jpg" alt="">
+        <h3>Home & Kitchen</h3>
+        <a href="" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="image/boot.jpg" alt="">
+        <h3>Fashion</h3>
+        <a href="" class="btn">read more</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="review" id="review">
+    <h1 class="heading">customer's review</h1>
+    <div class="swiper review-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="image/r1.jpg" alt="">
+          <p>Excellent Products with faster delivery</p>
+          <h3>Sundar Pichai</h3>  
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/r2.jpg" alt="">
+          <p>Excellent Products with faster delivery</p>
+          <h3>Ratan Tata</h3>  
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/r3.jpg" alt="">
+          <p>Excellent Products with faster delivery</p>
+          <h3>Mukesh Ambani</h3>  
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/r4.jpg" alt="">
+          <p>Excellent Products with faster delivery</p>
+          <h3>Jeff Bezos</h3>  
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="swiper review-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="image/r3.jpg" alt="">
+          <p>Excellent Products with faster delivery</p>
+          <h3>ELon Musk</h3>  
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/r4.jpg" alt="">
+          <p>Excellent Products with faster delivery</p>
+          <h3>Donald Trump</h3>  
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="image/r1.jpg" alt="">
+          <p>Excellent Products with faster delivery</p>
+          <h3>Mark Zuckerberg</h3>  
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>ShopZilla<i class="fas fa-shopping-cart"></i></h3>  
+        <p>Shopping with secure and faster payment</p>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>  
+        <a href="#" class="links"><i class="fas fa-phone"></i>+91-9172774660</a>
+        <a href="#" class="links"><i class="fas fa-envelope"></i>dhaniketshambharkar12@gmail.com</a>
+        <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>nagpur, india</a>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>  
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+      </div>
+
+      <div class="box">
+        <h3>newsletter</h3>  
+        <p>subscribe for latest updates</p>
+        <input type="email" placeholder="your email" class="btn">
+        <input type="submit" value="subscribe" class="btn">
+        <img src="image/payment.png" class="payment-img" alt="">
+      </div>
+
+    
+    </div>
+    <div class="credit">created by Dhaniket | all rights reserved</div>
+  </section>
+
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
